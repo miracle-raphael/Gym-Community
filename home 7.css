@@ -1,0 +1,1081 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@100..800&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Geist+Mono:wght@100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+/* NAV AREA */
+
+
+.commitment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(232, 100%, 96%);
+    padding: 25px;
+   position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid black;
+}
+
+#menuBtn{
+    display: none;
+    
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}  
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: "Geist", sans-serif;
+    font-weight: 400;
+}
+
+
+
+.btn{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: hsl(234, 97%, 75%);
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    color: white;
+    background-color: black;
+    transform: translateY(0);
+}
+
+.hom{
+    transition: 0.3s;
+}
+
+.hom:hover{
+    color: rgba(24, 9, 9, 0.416);
+    transform: translateY(0);
+}
+
+/* HERO AREA */
+
+.hero{
+    font-family: "Anek Tamil", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 15px 20px;
+    letter-spacing: -5%;
+    color: black;
+}
+
+.hero span{
+    color: hsl(234, 97%, 75%);
+}
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid black;
+    grid-template-rows: 400px 400px;
+}
+
+.img {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+.cont {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.guide {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.open {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.img2 {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.img2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+.cont h2, .guide h2, .open h2{
+    font-family: "Anek Tamil", sans-serif;
+    font-size: 38px;
+    padding: 0 15px;
+    max-width: 300px;
+}
+
+.btn1{
+    padding: 10px 24px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.24);
+    color: black;
+    border-radius: 8px;
+    transition: 0.3s;
+    text-decoration: none;
+    font-family: "Geist", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.btn1:hover {
+    background-color: black;
+    color: white;
+    transform: translateY(0);
+}
+
+.cont p, .guide p, .open p{
+    font-family: "Geist", sans-serif;
+    font-size: 16px;
+    padding: 10px 15px;
+    font-weight: 400;
+}
+
+ .guide, .open, .cont {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 16px;
+    background-color: hsl(232, 100%, 96%);
+}
+
+.com{
+    font-family: "Anek Tamil", sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    margin: 0 15px;
+    color: black;
+    letter-spacing: -5%;
+}
+
+.com span{
+    color: hsl(234, 97%, 75%);
+}
+
+/* LIST AREA */
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: hsl(232, 100%, 96%);
+}
+
+.list2{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+
+}
+
+.list2 h3{
+    font-family: "Anek Tamil", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.list2 p{
+    font-family: "Geist", sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.tribe1, .tribe2, .tribe3{
+     padding: 25px 25px;
+    border-bottom: 1px solid black;
+}
+
+.btn2{
+    display: inline-block;
+    padding: 15px 24px;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.24);
+    color: black;
+    border-radius: 8px;
+    transition: 0.3s;
+    text-decoration: none;
+    font-family: "Geist mono", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.btn2:hover {
+    background-color: black;
+    color: white;
+    transform: translateY(0);
+}
+
+.list h2{
+    font-family: "Anek Tamil", sans-serif;
+    font-size: 36px;
+    padding: 15px 25px;
+    border-bottom: 1px solid black;
+}
+
+.img3 img {
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    
+}
+
+
+/* JOIN AREA */
+
+.join{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 160px 20px;
+    background-color: hsl(234, 97%, 75%);
+    border: 1px solid rgba(0, 0, 0, 0.527);
+}
+
+.join p{
+    font-family: "Geist", sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.join h3{
+    font-family: "Anek Tamil", sans-serif;
+    font-size: 58px;
+    letter-spacing: -5%;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.join a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-family: "Geist", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding:  13px 14px;
+    border-radius: 8px;
+    transition: 0.3s;
+    letter-spacing: -1%;
+}
+
+.join a:hover {
+    background-color: black;
+    color: white;
+    transform: translateY(0);
+}
+
+/* FOOTER AREA */
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+}
+
+.logo h2{
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 48px;
+    color: black;
+    font-weight: 700;
+}
+
+.conts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 15px;
+    margin-top: 60px;
+}
+
+.conts h3{
+    font-family: "Anek Tamil", sans-serif;
+    font-size: 26px;
+    color: black;
+    font-weight: 700;
+}
+
+.conts h4{
+    font-family: "Anek Tamil", sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight: 700;
+}
+
+.conts p{
+    font-family: "Geist", sans-serif;
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+}
+
+.contact{
+    margin-top: 10px;
+}
+
+strong{
+    transition: 0.3s;
+}
+
+strong:hover{
+    color: rgba(39, 37, 37, 0.731);
+    transform: translateY(0);
+}
+
+.hours{
+  display: grid;
+  grid-template-columns: 120px 1fr;
+}
+
+.hours-container{
+  margin-top: 10px;
+} 
+
+
+.hours p{
+    display: flex;
+    flex-direction: column;
+}
+
+.social{
+    padding-right: 15px;
+}
+
+.socials{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.socials a{
+    color: black;
+    transition: 0.3s;
+}
+
+.socials a:hover{
+    color: rgba(39, 37, 37, 0.731);
+    transform: translateY(0);
+}
+
+
+/* ABOUT PAGE */
+
+#main{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.hero1{
+    padding: 2px 15px;
+    font-family: "Anek Tamil", sans-serif;
+    font-size: 38px;
+    letter-spacing: -5%;
+    font-weight: 700;
+}
+
+.primal{
+     background-color: hsl(234, 97%, 75%);
+     box-shadow: 0 0 0 15px hsl(234, 97%, 75%);
+}
+
+
+.img4{
+    grid-column: 1/-1;
+    position: relative;
+}
+
+.img4 h2{
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    max-width: 500px;
+    color: white;
+    margin-bottom: 10px;
+    font-family: "Anek Tamil", sans-serif;
+    font-size: 36px;
+    letter-spacing: -5%;
+    line-height: 1.1;
+}
+
+.img4 img{
+    width: 100%;
+    height: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    display: block;
+    filter: brightness(50%);
+}
+ 
+.img5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: grayscale(100%) brightness(65%) contrast(140%);
+}
+
+.img6 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: brightness(50%);
+}
+
+.primal{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 190px;
+    padding: 10px;
+    font-size: 16px;
+    
+}
+
+.primal h2{
+    font-family: "Anek Tamil", sans-serif;
+    font-size: 38px;
+    max-width: 600px;
+    font-weight: 700;
+}
+.primal h5{
+    font-family: "Anek Tamil", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.primal p{
+    font-family: "Geist", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1;
+}
+
+.gym{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 16px;
+    
+}
+
+.gym h2{
+    font-family: "Anek Tamil", sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.gym p{
+    font-family: "Geist", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1;
+}
+
+.tribe4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 160px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.527);
+}
+
+.tribe4 h3{
+    font-family: "Anek Tamil", sans-serif;
+    font-size: 58px;
+    letter-spacing: -5%;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.tribe4 a{
+    text-decoration: none;
+    color: black;
+    font-family: "Geist", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 13px 14px;
+    border-radius: 8px;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    background-color: hsl(234, 97%, 75%);
+}
+
+.tribe4 a:hover{
+     background-color: black;
+    color: white;
+    transform: translateY(0);
+}
+
+/* RESERVE YOUR SPOT */
+
+.sess h1{
+    font-size: 58px;
+    padding: 20px;
+    font-family: "Anek Tamil", sans-serif;
+    font-weight: 700;
+}
+
+.sess span{
+    color: hsl(234, 97%, 75%);
+}
+
+.class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 20px 10px;
+}
+
+.week1 h2,.week2 h2,.week3 h2{
+    font-size: 30px;
+    font-family: "Anek Tamil", sans-serif;
+    font-weight: 700;
+    padding: 0 10px;
+    margin-bottom: 25px;
+}
+
+.week1,
+.week2 {
+    border-right: 1px solid black;
+    padding-right: 25px;
+}
+
+
+.week1 p,.week2 p{
+    margin-top: 35px;
+    max-width: 350px;   
+    padding: 10px;
+    font-family: "Geist", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.week3 p{
+   margin-top: 70px;
+   max-width: 350px;
+   padding: 10px;
+    font-family: "Geist", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.limit p{
+    border-bottom: 1px solid black;
+}
+
+.week1,
+.week2,
+.week3 {
+    display: flex;
+    flex-direction: column;  
+    margin: auto; 
+}
+
+.btn5{
+    display: inline-block;
+    border-radius: 10px;
+    background-color: hsl(234, 97%, 75%);
+    margin: auto;
+    transition: 0.3s;
+     cursor: pointer;
+}
+
+.week1 a,
+.week2 a,
+.week3 a {
+    margin-top:45px;
+    text-decoration: none;
+    padding: 15px 55px 20px;
+    color: black;
+    font-family: "Giest Mono", sans-serif;
+}
+
+.btn5:hover{
+    background-color: black;
+    transform: translateY(0);
+    color: white;
+}
+
+
+
+
+
+/* =========================
+   TABLET DEVICES
+   768px - 1024px
+========================= */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* NAVIGATION */
+
+    .commitment {
+        padding: 20px;
+    }
+
+    nav {
+        gap: 30px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+
+    /* =========================
+       HOME PAGE
+    ========================= */
+
+    .hero {
+        font-size: 48px;
+    }
+
+    .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid black;
+    grid-template-rows: 400px 400px;
+}
+
+.img {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+.cont {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.guide {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.open {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.img2 {
+    grid-column: 3;
+    grid-row: 2;
+}
+    .img3 img {
+    width: 100%;
+    max-width: 400px;
+    }
+
+    .tribe1,.tribe2,.tribe3{
+        padding: 10px;
+    }
+
+    .com {
+        font-size: 75px;
+    }
+
+    .join h3,
+    .tribe4 h3 {
+        font-size: 50px;
+    }
+
+    .conts {
+        gap: 30px;
+    }
+
+    .logo h2 {
+        font-size: 40px;
+    }
+
+    
+
+    /* =========================
+       ABOUT PAGE
+    ========================= */
+
+    #main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .primal h2,
+    .gym h2 {
+        font-size: 32px;
+    }
+
+    .primal {
+        gap: 100px;
+    }
+
+    .img4 img {
+        max-height: 500px;
+    }
+
+
+    /* =========================
+       RESERVE PAGE
+    ========================= */
+
+    .sess h1 {
+        font-size: 48px;
+    }
+
+    .class {
+        gap: 20px;
+    }
+
+    .week1,
+    .week2,
+    .week3 {
+        width: 33.33%;
+    }  
+        
+    }
+        
+        /* =========================
+   MOBILE DEVICES
+   767px AND BELOW
+========================= */
+
+@media (max-width: 767px) {
+
+    .commitment {
+        position: sticky;
+        top: 0;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        padding: 15px;
+    }
+
+    #menuBtn {
+        display: block;
+        background: none;
+        border: none;
+        width: auto;
+        height: auto;
+        font-size: 75px;
+        padding-left: 90px;
+        
+        cursor: pointer;
+        z-index: 1001;
+    }
+
+   
+
+
+    /* CLOSED */
+    #navLinks {
+        display: none;
+    }
+
+    /* OPEN */
+    #navLinks.show {
+        display: flex;
+
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+
+        position: absolute;
+        top: 100%;
+        left: 0;
+
+        width: 100%;
+        padding: 30px;
+        background-color: hsl(232, 100%, 96%);
+        border-bottom: 1px solid black;
+
+        z-index: 1000;
+    }
+
+    #navLinks.show a {
+        display: block;
+        color: black;
+        text-decoration: none;
+        font-size: 15px;
+        border-bottom: 1px solid black;
+        padding-bottom: 20px;
+    }
+
+    #navLinks.show a:hover{
+        color: white;
+    }
+
+    /* =========================
+       HOME PAGE
+    ========================= */
+
+    .hero {
+        font-size: 20px;
+        line-height: 0.9;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-areas: "img" "cont" "img2" "guide"  "open";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .img{
+        grid-area: img;
+    }
+
+    .cont{
+        grid-area: cont;
+    }
+
+    .img2{
+        grid-area: img2;
+    }
+
+    .guide{
+        grid-area: guide;
+    }
+
+    .open{
+        grid-area:  open;
+    }
+
+    .cont h2, .guide h2, .open h2{
+    font-family: "Anek Tamil", sans-serif;
+    font-size: 28px;
+    max-width: 300px;
+    }
+
+
+    .img img,
+    .img2 img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .img3 img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .guide,
+    .open,
+    .cont {
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .list {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .com {
+        font-size: 35px;
+        padding: 15px;
+    }
+
+    .join {
+        padding: 100px 35px;
+        margin: auto;
+    }
+
+    .join h3,
+    .tribe4 h3 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .logo {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .logo img{
+        max-width: 180px;
+    }
+
+    .conts {
+        flex-direction: column;
+        gap: 20px;
+        align-items:flex-start ;
+    padding: 15px 25px;
+    
+    }
+
+    .list2 h2{
+        font-size: 25px;
+    }
+
+    .tribe1, .tribe2, .tribe3{
+     padding: 25px 15px;
+    border-bottom: 1px solid black;
+}
+
+    /* =========================
+       ABOUT PAGE
+    ========================= */
+
+    .hero1 h1 {
+        font-size: 45px;
+    }
+
+   #main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "img5""primal" "img6" "gym" "img4";
+    }
+
+     .primal,
+    .img5,
+    .img6,
+    .gym,
+    .img4 {
+        grid-column: 1;
+        grid-row: auto;
+    }
+
+    .img5{
+        grid-area: img5;
+    }
+
+    .primal{
+        grid-area: primal;
+    }
+    
+    .img6{
+        grid-area: img6;
+    }
+
+    .gym{
+        grid-area: gym;
+    }
+
+    .img4{
+        grid-area: img4;
+    }
+
+    .primal {
+        gap: 80px;
+        padding: 20px;
+    }
+
+    .gym{
+        padding: 20px;
+        gap: 60px;
+    }
+
+    .primal h2,
+    .gym h2 {
+        font-size: 30px;
+    }
+
+    .img5 img,
+    .img6 img,
+    .img4 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .img4 img {
+        max-height: 500px;
+        object-fit: cover;
+    }
+
+
+    /* =========================
+       RESERVE PAGE
+    ========================= */
+
+    .sess {
+        padding: 10px 15px;
+    }
+
+    .sess h1 {
+        font-size: 40px;
+    }
+
+    .class {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
+
+    .week1,
+    .week2,
+    .week3 {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid black;
+        padding: 20px 0;
+    }
+
+    .week3 {
+        border-bottom: none;
+    }
+
+    .btn5 {
+        width: 100%;
+    }
+}
